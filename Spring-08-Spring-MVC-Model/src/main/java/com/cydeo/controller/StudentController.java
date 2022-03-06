@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Random;
 
 @Controller
+
 public class StudentController {
     @RequestMapping("/welcome")
     public String homepage(Model model){
